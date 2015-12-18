@@ -1,0 +1,81 @@
+// Home Page SCSS
+
+#home-page {
+
+	h1 {
+		color: $skyrocket_red;	
+	}
+
+}// #home-page
+header{
+	.banner{
+	clear: left;
+	    height: 240px;
+	    font-size: 1.7em;
+	    padding-left: 4%;
+	    background-repeat: no-repeat;
+		display: table;
+		clear: both;
+		
+		}
+	}
+
+#home-page h1 {
+	font-size: 1.3em;
+	}
+
+div.img {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 22.5%;
+
+    img {
+	    width: 100%;
+	    height: auto;
+    }
+}
+
+div.desc {
+    padding: .1em;
+    text-align: center;
+}
+
+div.col2{
+    margin: 15px;
+    float: left;
+    width: 45%;
+}
+
+.nav_footer{
+	clear: left;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+    nav {
+		display:block;
+		font-size: .75em;
+
+    	li {
+    		float: left;
+    		display:block;
+			list-style-type: none;
+			font-size: 1.3em;
+			padding: 10px;
+		    border-right: solid 1px rgba(0,0,0, 0.7);
+		    border-left: solid 1px rgba(250,250,250, 0.1);
+    	}	
+
+    	a{
+    		text-decoration: none;
+    	}
+
+		a:hover {
+			color: $main_color;
+		    text-decoration: none;
+		}
+	}
+
+}

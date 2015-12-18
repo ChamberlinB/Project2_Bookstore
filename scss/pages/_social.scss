@@ -1,0 +1,32 @@
+/* Scss Document */
+
+/*-----Footer SOCIAL ICONS-----*/
+//example of nesting //
+	#footer ul.social {
+		float:right;
+		display:block;
+		background-color: red;
+		list-style-type: none;
+		padding: 20px;
+		li {
+			float: left;
+		a {
+			display:block;
+			background-image:url(../img/icons2.png); 
+			width:60px;
+			height: 60px;list-style-type: none;			
+		}
+		}
+	}
+	
+	/*first value is X, second value is Y*/
+	ul.social .googleplus a {background-position:0px 60px;}
+	ul.social .deviantart a  {background-position:-60px 60px;}
+	ul.social .facebook a {background-position:-120px 60px;}
+	ul.social .twitter a {background-position:-180px 60px;}
+	
+	
+	ul.social .googleplus a:hover {background-position:-0px 0px;}
+	ul.social .deviantart a:hover  {background-position:-60px 0px;}
+	ul.social .facebook a:hover {background-position:-120px 0px;}
+	ul.social .twitter a:hover {background-position:-180px 0px;}

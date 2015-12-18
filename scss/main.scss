@@ -1,0 +1,14 @@
+// Main SCSS, there should be no CSS in this page!
+
+
+// Global Specificity
+@import 'partials/variables.scss';
+
+// Site Specificity
+@import 'partials/header.scss';
+
+// Page Specificity
+@import 'pages/home-page.scss';
+
+@import 'pages/social.scss';
+

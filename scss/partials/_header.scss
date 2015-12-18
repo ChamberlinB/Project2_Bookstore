@@ -1,0 +1,36 @@
+// Header SCSS
+
+#navbuttons {
+	float: none;
+
+    nav {
+    	float: right;
+		display:block;
+
+    	li {
+    		float: left;
+    		display:block;
+			list-style-type: none;
+			font-size: 1.3em;
+			padding: 10px;
+		    border-right: solid 1px rgba(0,0,0, 0.7);
+		    border-left: solid 1px rgba(250,250,250, 0.1);
+    	}	
+
+    	a{
+    		text-decoration: none;
+    	}
+
+		a:hover {
+			color: $main_color;
+		    text-decoration: none;
+		}
+	}
+
+}// #header
+header{
+	padding: 20px;
+}
+#header nav li {
+    border-radius: 0;
+}

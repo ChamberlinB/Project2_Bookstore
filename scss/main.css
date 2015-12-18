@@ -1,0 +1,124 @@
+#navbuttons {
+  float: none; }
+  #navbuttons nav {
+    float: right;
+    display: block; }
+    #navbuttons nav li {
+      float: left;
+      display: block;
+      list-style-type: none;
+      font-size: 1.3em;
+      padding: 10px;
+      border-right: solid 1px rgba(0, 0, 0, 0.7);
+      border-left: solid 1px rgba(250, 250, 250, 0.1); }
+    #navbuttons nav a {
+      text-decoration: none; }
+    #navbuttons nav a:hover {
+      color: #DC4B25;
+      text-decoration: none; }
+
+header {
+  padding: 20px; }
+
+#header nav li {
+  border-radius: 0; }
+
+#home-page h1 {
+  color: #ff0000; }
+
+header .banner {
+  clear: left;
+  height: 240px;
+  font-size: 1.7em;
+  padding-left: 4%;
+  background-repeat: no-repeat;
+  display: table;
+  clear: both; }
+
+#home-page h1 {
+  font-size: 1.3em; }
+
+div.img {
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 22.5%; }
+  div.img img {
+    width: 100%;
+    height: auto; }
+
+div.desc {
+  padding: .1em;
+  text-align: center; }
+
+div.col2 {
+  margin: 15px;
+  float: left;
+  width: 45%; }
+
+.nav_footer {
+  clear: left;
+  margin: auto;
+  width: 60%;
+  padding: 10px; }
+  .nav_footer nav {
+    display: block;
+    font-size: .75em; }
+    .nav_footer nav li {
+      float: left;
+      display: block;
+      list-style-type: none;
+      font-size: 1.3em;
+      padding: 10px;
+      border-right: solid 1px rgba(0, 0, 0, 0.7);
+      border-left: solid 1px rgba(250, 250, 250, 0.1); }
+    .nav_footer nav a {
+      text-decoration: none; }
+    .nav_footer nav a:hover {
+      color: #DC4B25;
+      text-decoration: none; }
+
+/* Scss Document */
+/*-----Footer SOCIAL ICONS-----*/
+#footer ul.social {
+  float: right;
+  display: block;
+  background-color: red;
+  list-style-type: none;
+  padding: 20px; }
+  #footer ul.social li {
+    float: left; }
+    #footer ul.social li a {
+      display: block;
+      background-image: url(../img/icons2.png);
+      width: 60px;
+      height: 60px;
+      list-style-type: none; }
+
+/*first value is X, second value is Y*/
+ul.social .googleplus a {
+  background-position: 0px 60px; }
+
+ul.social .deviantart a {
+  background-position: -60px 60px; }
+
+ul.social .facebook a {
+  background-position: -120px 60px; }
+
+ul.social .twitter a {
+  background-position: -180px 60px; }
+
+ul.social .googleplus a:hover {
+  background-position: -0px 0px; }
+
+ul.social .deviantart a:hover {
+  background-position: -60px 0px; }
+
+ul.social .facebook a:hover {
+  background-position: -120px 0px; }
+
+ul.social .twitter a:hover {
+  background-position: -180px 0px; }
+
+/*# sourceMappingURL=main.css.map */
