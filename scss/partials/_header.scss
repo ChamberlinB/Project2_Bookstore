@@ -1,5 +1,7 @@
 // Header SCSS
 
+
+
 #navbuttons {
 	float: none;
 
@@ -29,7 +31,14 @@
 
 }// #header
 header{
-	padding: 20px;
+		clear: left;
+	    height: 240px;
+	    font-size: 1.7em;
+	    padding-left: 5%;
+	    padding-right: 5%;
+	    background-repeat: no-repeat;
+		clear: both;
+		font-color: $secondary_color;
 }
 #header nav li {
     border-radius: 0;

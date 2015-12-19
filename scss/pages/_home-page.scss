@@ -7,51 +7,58 @@
 	}
 
 }// #home-page
-header{
-	.banner{
+
+.clear{
+	display: box;
 	clear: left;
-	    height: 240px;
-	    font-size: 1.7em;
-	    padding-left: 4%;
-	    background-repeat: no-repeat;
-		display: table;
-		clear: both;
-		
-		}
+	margin: auto;
+}
+    
+    @mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+header{
 	}
 
 #home-page h1 {
 	font-size: 1.3em;
+	font: $font-stack;
 	}
 
 div.img {
     margin: auto;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid $primary_color;
+    border-radius: $radius;
     float: left;
-    width: 22.5%;
+    width: 216 / 960 * 100%;
 
     img {
 	    width: 100%;
 	    height: auto;
     }
+
+.img { @include border-radius($radius); }
 }
 
 div.desc {
-    padding: .1em;
+    padding: 1em;
     text-align: center;
+    color: $primary_color;
 }
 
 div.col2{
     margin: 15px;
     float: left;
-    width: 45%;
+    width: 432 /960 * 100%;
 }
 
 .nav_footer{
-	clear: left;
-    margin: auto;
-    width: 60%;
+	@extend .clear;
+    width: 316 / 960 * 100%;
     padding: 10px;
 
     nav {

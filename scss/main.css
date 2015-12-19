@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Carrois+Gothic+SC|Open+Sans);
 #navbuttons {
   float: none; }
   #navbuttons nav {
@@ -18,7 +19,14 @@
       text-decoration: none; }
 
 header {
-  padding: 20px; }
+  clear: left;
+  height: 240px;
+  font-size: 1.7em;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-repeat: no-repeat;
+  clear: both;
+  font-color: #666; }
 
 #header nav li {
   border-radius: 0; }
@@ -26,31 +34,35 @@ header {
 #home-page h1 {
   color: #ff0000; }
 
-header .banner {
+.clear, .nav_footer {
+  display: box;
   clear: left;
-  height: 240px;
-  font-size: 1.7em;
-  padding-left: 4%;
-  background-repeat: no-repeat;
-  display: table;
-  clear: both; }
+  margin: auto; }
 
 #home-page h1 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  font: Helvetica, sans-serif, Oswald, open-sans; }
 
 div.img {
   margin: auto;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #9d9d9d;
+  border-radius: 5px;
   float: left;
   width: 22.5%; }
   div.img img {
     width: 100%;
     height: auto; }
+  div.img .img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
 
 div.desc {
-  padding: .1em;
-  text-align: center; }
+  padding: 1em;
+  text-align: center;
+  color: #9d9d9d; }
 
 div.col2 {
   margin: 15px;
@@ -58,9 +70,7 @@ div.col2 {
   width: 45%; }
 
 .nav_footer {
-  clear: left;
-  margin: auto;
-  width: 60%;
+  width: 32.91667%;
   padding: 10px; }
   .nav_footer nav {
     display: block;
@@ -84,7 +94,6 @@ div.col2 {
 #footer ul.social {
   float: right;
   display: block;
-  background-color: red;
   list-style-type: none;
   padding: 20px; }
   #footer ul.social li {
